@@ -1,4 +1,4 @@
-# 🍯 Database Honeypot (MySQL Emulation)
+# 🍯 Database Honeypot 
 
 A lightweight, **low-interaction MySQL honeypot** written in pure Python. It imitates a MySQL 5.7 server, records every connection attempt, credential guess and SQL statement an intruder sends, and writes everything to a **JSON-lines log** that is easy to feed into a SIEM.
 
@@ -64,8 +64,8 @@ All statements are logged regardless of the reply.
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/whoami592/Database-Honeypotgit
+cd Database-Honeypot
 chmod +x db_honeypot.py
 ```
 
